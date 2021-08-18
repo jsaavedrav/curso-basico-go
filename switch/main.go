@@ -2,8 +2,9 @@ package main
 
 import "fmt"
 
-func main(){
-	
+func main() {
+
+	// Con condicion (evaluar valor)
 	switch modulo := 4 % 2; modulo {
 	case 0:
 		fmt.Println("Es par")
@@ -11,7 +12,7 @@ func main(){
 		fmt.Println("Es impar")
 	}
 
-	// Sin condicion 
+	// Sin condicion (operador logistico)
 	value := 200
 	switch {
 	case value > 100:
